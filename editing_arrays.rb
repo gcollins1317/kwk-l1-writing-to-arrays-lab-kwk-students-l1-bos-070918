@@ -14,5 +14,6 @@ def add_colors
   RAINBOW_COLORS << "green"
   RAINBOW_COLORS << "blue"
 end
-
+change_rainbow_colors
+add_colors
 puts RAINBOW_COLORS
